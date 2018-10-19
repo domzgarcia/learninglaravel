@@ -1,21 +1,8 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>DomzG Playground</title>
-
-        <!-- Fonts -->
-        <link rel="stylesheet" href="{{ asset('site/css/bootstrap4/css/bootstrap-grid.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('site/css/bootstrap4/css/bootstrap-reboot.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('site/css/bootstrap4/css/bootstrap.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('site/css/main.css') }}">
-        <!-- Styles -->
-    </head>
+@extends('layouts.layout')
     
-    <body>  
+    @section('title', 'C.R.U.D')
+    
+    @section('content')
         <div class="dgpanel -top-gutter -bottom-gutter">
             <div class="container">
                 <div class="row">
@@ -64,5 +51,5 @@
                 </div>
             </div>
         </div>
-    </body>
-</html>
+    
+    @endsection('content')
