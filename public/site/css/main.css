@@ -1,0 +1,8 @@
+.dgpanel{
+    /**/
+}
+.dgpanel.-top-gutter,
+.dgpanel.-bottom-gutter{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
