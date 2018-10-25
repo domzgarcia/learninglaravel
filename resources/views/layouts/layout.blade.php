@@ -27,3 +27,5 @@
         @yield('content')
     </body>
 </html>
+
+https://laracasts.com/series/laravel-from-scratch-2018/episodes/5?autoplay=true
